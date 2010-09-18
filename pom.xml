@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>de.devsurf.maven</groupId>
+		<artifactId>de.devsurf.maven</artifactId>
+		<version>1.1</version>
+	</parent>
+	
+	<groupId>de.devsurf.jaxrs.commons</groupId> 
+	<artifactId>de.devsurf.jaxrs.commons</artifactId>
+	<version>0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<name>jaxrs-commons</name>
+	<description>A project which collects tool classes for inspecting/using JAX-RS.</description>
+	<inceptionYear>2009</inceptionYear> 
+
+	<scm>
+		<url>git@github.com:manzke/jaxrs-commons.git</url>
+		<connection>scm:git:git@github.com:manzke/jaxrs-commons.git</connection>
+		<developerConnection>scm:git:git@github.com:manzke/jaxrs-commons.git</developerConnection>
+	</scm>
+	<dependencies>
+		<dependency>
+			<groupId>javax.ws.rs</groupId>
+			<artifactId>jsr311-api</artifactId>
+			<version>1.1.1</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+	</dependencies>
+</project>
